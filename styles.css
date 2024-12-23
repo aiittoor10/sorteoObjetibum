@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #4caf50, #1b5e20);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2e7d32;
+    text-shadow: 2px 2px #ffffff;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555555;
+}
+
+.caja-sorteo {
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    max-height: 200px;
+    border: 2px solid #ff5722;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.lista-participantes {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.lista-participantes li {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+.lista-participantes li:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.boton-sorteo {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.boton-sorteo:hover {
+    background-color: #e64a19;
+    transform: scale(1.1);
+}
+
+.resultado {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #1b5e20;
+}
+
+.nombre-ganador {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+.oculto {
+    display: none;
+}
